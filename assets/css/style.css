@@ -306,10 +306,24 @@ a, a:visited{
 		padding:0 0 25px;
 	}
 
+	.pItem{
+		width:100%;
+		height:inherit;
+		margin:20px 0 20px;
+	}
+
+	.pItem h2{
+		bottom:0;
+	}
+
 
 }
 
 @media screen and (max-width:768px){
+
+	.container{
+		width:95%;
+	}
 
 	.mainContent{
 		width:100%;
@@ -326,6 +340,19 @@ a, a:visited{
 		margin-top:35px;
 	}
 
+	.pItem{
+		width:initial;
+		float:left;
+	}
+
+	.pItem img{
+		padding:0;
+	}
+
+	.pItem h2{
+		bottom:15px;
+	}
+
 
 }
 
@@ -333,6 +360,10 @@ a, a:visited{
 
 	.container{
 		width: 100%;
+	}
+
+	.content .container{
+		width:95%;
 	}
 
 	.header{
@@ -351,12 +382,24 @@ a, a:visited{
 	}
 
 	.headerMenu li{
-		padding: 0 50px;
+		padding: 0 25px;
 	}
+
 
 	.mainContent img{
 		width:100%;
 		padding:0 0 25px;
+	}
+
+
+	.pItem{
+		width:100%;
+		height:inherit;
+		margin:20px 0 20px;
+	}
+
+	.pItem h2{
+		bottom:0;
 	}
 	
 }
