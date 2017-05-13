@@ -8,6 +8,9 @@
 | 4) Forms
 | 5) Portfolio
 | 6) Media Queries
+|		-980
+|		-768
+|		-640
 |
 /-------------------------*/
 
@@ -283,3 +286,15 @@ a, a:visited{
 }
 
 /*__________Media Queries_________*/
+
+@media screen and (max-width:980px){
+
+}
+
+@media screen and (max-width:768px){
+	
+}
+
+@media screen and (max-width:640px){
+	
+}
