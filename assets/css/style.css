@@ -14,6 +14,12 @@
 |
 /-------------------------*/
 
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
 html{
 	position: relative;
 	min-height:100%;
@@ -288,13 +294,69 @@ a, a:visited{
 /*__________Media Queries_________*/
 
 @media screen and (max-width:980px){
+	.container{
+		width:728px;
+	}
+	.mainContent{
+		width:420px;
+	}
+
+	.mainContent img{
+		width:100%;
+		padding:0 0 25px;
+	}
+
 
 }
 
 @media screen and (max-width:768px){
-	
+
+	.mainContent{
+		width:100%;
+	}
+
+	.mainContent img{
+		width: initial;
+		padding: initial;
+		padding-right: 20px;
+	}
+
+	.sidebar{
+		width:100%;
+		margin-top:35px;
+	}
+
+
 }
 
 @media screen and (max-width:640px){
+
+	.container{
+		width: 100%;
+	}
+
+	.header{
+		height: inherit;
+		text-align: center;
+	}
+
+	.header h1{
+		width:100%;
+	}
+
+	.headerMenu{
+		float:none;
+		width:100%;
+		background:#fff;
+	}
+
+	.headerMenu li{
+		padding: 0 50px;
+	}
+
+	.mainContent img{
+		width:100%;
+		padding:0 0 25px;
+	}
 	
 }
